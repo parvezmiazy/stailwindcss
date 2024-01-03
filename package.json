@@ -1,0 +1,15 @@
+{
+  "name": "stailwindcss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./dist/tailwind.css -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.0"
+  }
+}

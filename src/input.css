@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@layer components{
 /*group utilities*/
 .btn{
     @apply 
@@ -17,7 +17,7 @@
     hover:text-white   
     hover:border-transparent
     dark:focus:ring-offset-gray-800
-    dark:focus:border-transparent
+    dark:focus:border-transparent;
     @apply p-2; 
     
     
@@ -39,3 +39,16 @@
     focus:ring-green-600
     dark:text-green-400
     }
+}
+
+@layer base {
+    h1{
+        @apply text-2xl;
+    }
+}
+
+@layer utilities{
+    .text-body{
+        font-size: 12px;
+    }
+}

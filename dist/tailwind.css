@@ -492,12 +492,6 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
-.\!font-bold {
-  font-weight: 700 !important;
-}
-.font-medium {
-  font-weight: 500;
-}
 
 
 .text-body{
@@ -505,7 +499,7 @@ video {
 }
 
 
-@media (min-width: 640px) {
+@media (min-width: 540px) {
 
   .sm\:hover\:text-red-800:hover {
     --tw-text-opacity: 1;

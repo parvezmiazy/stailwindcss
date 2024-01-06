@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 
-.text-body{
-    font-size: 2rem;
+.btn{
+    @apply text-sm text-center bg-blue-600 sm:text-left lg:text-right 4k:text-center
+    
 }
-
